@@ -47,7 +47,7 @@ const applications = [
     title: 'Create a new account',
     svg: SignupLogo,
     copy: `Don't have a GBDX account? Get started here.`,
-    link: 'https://gbdxdocs.digitalglobe.com'
+    link: 'https://signup.geobigdata.com'
   }
 ]
 
