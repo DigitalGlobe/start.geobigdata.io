@@ -8,3 +8,9 @@
   height: 350px;
   padding: 0 2em;
 }
+
+.app-card svg {
+  fill: var(--dg-shade-light);
+  width: 100px;
+  height: auto;
+}

@@ -2,6 +2,9 @@ import { ReactComponent as InfoProductHubLogo } from './images/hub.svg';
 import { ReactComponent as NotebooksLogo } from './images/notebooks.svg';
 import { ReactComponent as AnswerFactoryLogo } from './images/answerfactory.svg';
 import { ReactComponent as UniversityLogo } from './images/university.svg';
+import { ReactComponent as DashboardLogo } from './images/dashboard.svg';
+import { ReactComponent as SignupLogo } from './images/account.svg';
+import { ReactComponent as MapsApiLogo } from './images/mapsapi.svg';
 
 const applications = [
   {
@@ -26,6 +29,24 @@ const applications = [
     title: 'GBDX University',
     svg: UniversityLogo,
     copy: `Learn more at GBDX University.`,
+    link: 'https://gbdxdocs.digitalglobe.com'
+  },
+  {
+    title: 'Dashboard',
+    svg: DashboardLogo,
+    copy: `Manage your existing account, billing, and other important metrics`,
+    link: 'https://dashboard.geobigdata.io'
+  },
+  {
+    title: 'Maps API',
+    svg: MapsApiLogo,
+    copy: `Manage your MapsAPI base layer subscription.`,
+    link: 'https://mapsapi.digitalglobe.com'
+  },
+  {
+    title: 'Create a new account',
+    svg: SignupLogo,
+    copy: `Don't have a GBDX account? Get started here.`,
     link: 'https://gbdxdocs.digitalglobe.com'
   }
 ]
