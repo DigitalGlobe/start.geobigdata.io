@@ -1,5 +1,6 @@
 {
   "name": "gbdx-product-suite",
+"  homepage": "http://start.geobigdata.io/docs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
