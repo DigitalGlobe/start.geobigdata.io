@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <header>
           <div>
-            <img className="logo" src={DgLogo} />
+            <img alt="digitalglobe logo" className="logo" src={DgLogo} />
           </div>
           <div className="title"><h1>GBDX Product Suite</h1></div>
         </header>

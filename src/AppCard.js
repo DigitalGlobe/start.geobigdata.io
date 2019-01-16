@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '@digitalglobe/dg-components';
 import './AppCard.css';
 
 const AppCard = ({
@@ -13,7 +12,10 @@ const AppCard = ({
       <h3>{ title }</h3>    
       <Logo />
       <h6 style={{ fontSize: '15px' }}>{ copy }</h6>
-      <Button onClick={() => window.location.href = link} outline intention="primary" style={{ borderColor: 'var(--dg-shade-light)', color: 'var(--dg-shade-light)' }}>Visit Site</Button>
+      <a 
+        href={link} 
+        className={`dg-btn dg-btn-outline`} 
+        style={{ fontFamily: 'PF DinDisplay Pro', backgroundColor: 'transparent', borderColor: 'var(--dg-shade-light)', color: 'var(--dg-shade-light)' }}>Visit Site</a>
     </div> 
   )
 }

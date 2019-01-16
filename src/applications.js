@@ -48,6 +48,12 @@ const applications = [
     svg: SignupLogo,
     copy: `Don't have a GBDX account? Get started here.`,
     link: 'https://signup.geobigdata.io'
+  },
+  {
+    title: 'RDA Graph Studio',
+    svg: InfoProductHubLogo,
+    copy: `Create RDA Graphs`,
+    link: 'https://rda.geobigdata.io'
   }
 ]
 
