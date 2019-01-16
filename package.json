@@ -2,6 +2,7 @@
   "name": "gbdx-product-suite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://start.geobigdata.io/docs",
   "dependencies": {
     "@digitalglobe/dg-components": "^1.0.34",
     "react": "^16.7.0",
