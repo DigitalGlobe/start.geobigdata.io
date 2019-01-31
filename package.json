@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "reactSnapshot":{
+  "reactSnapshot": {
     "snapshotDelay": 300
   },
   "eslintConfig": {

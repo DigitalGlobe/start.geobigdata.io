@@ -8,16 +8,16 @@ import { ReactComponent as MapsApiLogo } from './images/mapsapi.svg';
 
 const applications = [
   {
-    title: 'Info Product Hub',
-    svg: InfoProductHubLogo,
-    copy: `Find, explore and download vector datasets.`,
-    link: 'https://hub.geobigdata.io'
-  },
-  {
     title: 'Notebooks',
     svg: NotebooksLogo,
     copy: `Interact with live code Jupyter notebooks and use GPUs to process imagery.`,
     link: 'https://notebooks.geobigdata.io'
+  },
+  {
+    title: 'GBDX Tools',
+    svg: MapsApiLogo,
+    copy: `Discover gbdxtools: Python tools for using GBDX.`,
+    link: 'https://gbdxtools.readthedocs.io/'
   },
   {
     title: 'Answer Factory',
@@ -32,28 +32,22 @@ const applications = [
     link: 'https://gbdxdocs.digitalglobe.com'
   },
   {
+    title: 'GBDX Status Page',
+    svg: InfoProductHubLogo,
+    copy: `View the status of the GBDX platform.`,
+    link: 'http://status.geobigdata.io'
+  },
+  {
     title: 'Dashboard',
     svg: DashboardLogo,
     copy: `Manage your existing account, billing, and other important metrics`,
     link: 'https://dashboard.geobigdata.io'
   },
   {
-    title: 'Maps API',
-    svg: MapsApiLogo,
-    copy: `Manage your MapsAPI base layer subscription.`,
-    link: 'https://mapsapi.digitalglobe.com'
-  },
-  {
     title: 'Create a new account',
     svg: SignupLogo,
     copy: `Don't have a GBDX account? Get started here.`,
     link: 'https://signup.geobigdata.io'
-  },
-  {
-    title: 'RDA Graph Studio',
-    svg: InfoProductHubLogo,
-    copy: `Create RDA Graphs`,
-    link: 'https://rda.geobigdata.io'
   }
 ]
 
