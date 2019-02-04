@@ -1,32 +1,17 @@
 {
-  "name": "gbdx-product-suite",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@digitalglobe/dg-components": "^1.0.34",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
-  },
+  "name": "GeoBigData.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "reactSnapshot": {
-    "snapshotDelay": 300
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "react-snapshot": "^1.3.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@digitalglobe/dg-styles": "^1.0.3",
+    "clean-css": "^4.2.1",
+    "uglify-js": "^3.4.9"
   }
 }
