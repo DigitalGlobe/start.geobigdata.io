@@ -1,0 +1,9 @@
+---
+permalink: assets/css/bundle_notebooks.css
+---
+{% capture css %}
+{% include ../../node_modules/@digitalglobe/dg-styles/dist/grid.css %}
+{% include ../../node_modules/@digitalglobe/dg-styles/dist/reset.css %}
+{% include ../../node_modules/@digitalglobe/dg-styles/dist/style.css %}
+{% include css/custom_notebooks.css %}
+{% endcapture %}{{ css | cssmin | safe }}
