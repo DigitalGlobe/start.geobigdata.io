@@ -1,0 +1,116 @@
+body {
+  background: #003359;
+}
+
+.dg-content {
+  background: #ffffff;
+}
+
+#section_gbdx {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 18% 0 6%;
+    color: #ffffff;
+}
+#section_gbdx:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: #001d48;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.8+0,0+100 */
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+#section_gbdx .dg-boundary {
+  position: relative;
+  z-index: 1;
+}
+#section_gbdx h1 { font-family: "PF Din Display Pro Extra Thin","PF DinDisplay Pro","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+/* 0 - 600px */
+#section_gbdx { background-image: url('/assets/images/xlarge_PSMA_LP_Hero_Banner_1200.jpg'); }
+/* 0 - 600px (high resolution) */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 144dpi) {
+  #section_gbdx { background-image: url('/assets/images/xlarge_PSMA_LP_Hero_Banner_1200.jpg'); }
+}
+/* 600px - 1024px */
+@media  only screen and (min-width: 37.5em) {
+  #section_gbdx { background-image: url('/assets/images/xlarge_PSMA_LP_Hero_Banner_1200.jpg'); }
+}
+/* 600px - 1200px (high resolution) */
+@media (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 37.5em), (min--moz-device-pixel-ratio: 1.5) and (min-width: 37.5em), (-o-min-device-pixel-ratio: 3/2) and (min-width: 37.5em), (min-resolution: 144dpi) and (min-width: 37.5em) {
+  #section_gbdx { background-image: url('/assets/images/xlarge_PSMA_LP_Hero_Banner_1800.jpg'); }
+}
+/* 600px - 1024px */
+@media  only screen and (min-width: 48em) {
+  #section_gbdx { background-image: url('/assets/images/xlarge_PSMA_LP_Hero_Banner_1800.jpg'); }
+}
+/* 1200px (IE) */
+.lte-ie8 #section_gbdx { background-image: url('/assets/images/xlarge_PSMA_LP_Hero_Banner_1800.jpg');
+  -ms-behavior: url('/css/backgroundsize.min.htc'); background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+#section_notebooks {
+  background: #f5f5f5;
+  padding: 36px 0 36px;
+}
+
+#section_gbdxtools {
+  background: #eaeaea;
+  padding: 36px 0 36px;
+}
+
+#section_more {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 46px 0 60px;
+    color: #ffffff;
+}
+#section_more .dg-boundary {
+  position: relative;
+  z-index: 1;
+}
+#section_more .app_card {
+  text-align: center;
+  padding: 32px;
+  line-height: 1.21em;
+}
+#section_more .app_card svg {
+  fill: #ffffff;
+  width: 48px;
+  height: 48px;
+}
+#section_more .card_content {
+  border: 1px solid #1e1e1e;
+  background: rgba(0,0,0,0.5);
+}
+/* 0 - 600px */
+#section_more { background-image: url('/assets/images/addional_tools_background_1200.jpg'); }
+/* 0 - 600px (high resolution) */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 144dpi) {
+  #section_more { background-image: url('/assets/images/addional_tools_background_1200.jpg'); }
+}
+/* 600px - 1024px */
+@media  only screen and (min-width: 37.5em) {
+  #section_more { background-image: url('/assets/images/addional_tools_background_1200.jpg'); }
+}
+/* 600px - 1200px (high resolution) */
+@media (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 37.5em), (min--moz-device-pixel-ratio: 1.5) and (min-width: 37.5em), (-o-min-device-pixel-ratio: 3/2) and (min-width: 37.5em), (min-resolution: 144dpi) and (min-width: 37.5em) {
+  #section_more { background-image: url('/assets/images/addional_tools_background_1800.jpg'); }
+}
+/* 600px - 1024px */
+@media  only screen and (min-width: 48em) {
+  #section_more { background-image: url('/assets/images/addional_tools_background_1800.jpg'); }
+}
+/* 1200px (IE) */
+.lte-ie8 #section_more { background-image: url('/assets/images/addional_tools_background_1800.jpg');
+  -ms-behavior: url('/css/backgroundsize.min.htc'); background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+#section_signup {
+    padding: 20px 0 36px;
+}

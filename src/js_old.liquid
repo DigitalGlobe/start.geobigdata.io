@@ -1,0 +1,8 @@
+---
+permalink: assets/js/bundle_old.js
+---
+{% capture js %}
+{% include js/popper.min.js %}
+{% include js/bootstrap.min.js %}
+{% include js/holder.min.js %}
+{% endcapture %}{{ js | jsmin | safe }}

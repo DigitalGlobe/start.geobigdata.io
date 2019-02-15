@@ -1,10 +1,9 @@
 ---
-permalink: assets/css/bundle.css
+permalink: assets/css/bundle_old.css
 ---
 {% capture css %}
 {% include ../../node_modules/@digitalglobe/dg-styles/dist/grid.css %}
 {% include ../../node_modules/@digitalglobe/dg-styles/dist/reset.css %}
 {% include ../../node_modules/@digitalglobe/dg-styles/dist/style.css %}
-{% include css/header.css %}
-{% include css/index.css %}
+{% include css/old.css %}
 {% endcapture %}{{ css | cssmin | safe }}
