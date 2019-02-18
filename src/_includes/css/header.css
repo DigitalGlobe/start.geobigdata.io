@@ -40,6 +40,10 @@
 	right: 138px;
 }
 
+.dg_header .nav_main_menus.no_nav_minor {
+	right: 0;
+}
+
 .dg_header .nav_main_menus_button {
 	position: absolute;
 	top: -72px;
