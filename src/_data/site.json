@@ -1,7 +1,10 @@
 {
-  "title": "Bootstrap",
-  "url": "",
-  "baseurl": "",
+  "title": "DigitalGlobe GBDX",
+  "url": "https://www.geobigdata.io/",
+  "baseurl": "https://www.geobigdata.io/",
   "repo": "",
-  "og_locale": "en_US"
+  "og_locale": "en_US",
+  "imgfacebook": "https://www.geobigdata.io/assets/images/geobigdata_facebook.jpg",
+  "imgtwitter": "https://www.geobigdata.io/assets/images/geobigdata_twitter.jpg",
+  "imgalt": "DigitalGlobe GBDX - Actionable Insights. Global Scale."
 }
