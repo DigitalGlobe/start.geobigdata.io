@@ -3,11 +3,33 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <link rel="icon" href="/favicon.ico">
 
-    <title>{% if pagetitle %}{{ pagetitle}} - {% endif %}{{ site.title }}</title>
+    <title>{% if pagetitle %}{{ pagetitle }} - {% endif %}{{ site.title }}</title>
+
+    <meta name="description" content="{% if description %}{{ description }}{% endif %}">
+    <meta name="author" content="DigitalGlobe">
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{% if pagetitle %}{{ pagetitle }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:description" content="{% if description %}{{ description }}{% endif %}" />
+    <meta property="og:url" content="{{ site.baseurl }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="article:section" content="Uncategorized" />
+    <meta property="article:published_time" content="2018-12-15T13:40:27+00:00" />
+    <meta property="article:modified_time" content="2018-12-15T23:43:58+00:00" />
+    <meta property="og:updated_time" content="2018-12-15T23:43:58+00:00" />
+    <meta property="og:image" content="{% if imgfacebook %}{{ imgfacebook }}{% else %}{{ site.imgfacebook }}{% endif %}" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="682" />
+    <meta property="og:image:alt" content="{% if imgalt %}{{ imgalt }}{% else %}{{ site.imgalt }}{% endif %}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="{% if description %}{{ description }}{% endif %}" />
+    <meta name="twitter:title" content="{% if pagetitle %}{{ pagetitle }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:site" content="{{ site.title }}" />
+    <meta name="twitter:image" content="{% if imgtwitter %}{{ imgtwitter }}{% else %}{{ site.imgtwitter }}{% endif %}" />
+    <meta name="twitter:creator" content="@digitalglobe" />
 
     <!-- Combined CSS -->
     <link rel="stylesheet" type="text/css" href="https://digitalglobe-marketing.s3.amazonaws.com/web/fonts/fonts-all.css" />

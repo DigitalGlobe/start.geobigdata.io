@@ -189,6 +189,11 @@
 		white-space: nowrap;
 	}
 
+	.dg_header .nav_main_menus_primary,
+	.dg_header .nav_main_menus_secondary {
+	  display: block;
+	}
+
 	.dg_header .nav_main_menus_secondary {
 		position: absolute;
 		top: 72px;
