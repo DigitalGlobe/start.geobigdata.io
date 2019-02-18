@@ -10,33 +10,24 @@
     <title>{% if pagetitle %}{{ pagetitle}} - {% endif %}{{ site.title }}</title>
 
     <!-- Combined CSS -->
+    <link rel="stylesheet" type="text/css" href="https://digitalglobe-marketing.s3.amazonaws.com/web/fonts/fonts-all.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/bundle.css" />
   </head>
 
   <body class="dg-body">
 
-    <div id="root">
-      <div data-reactroot="">
-        {% include headers/default.liquid %}
+    <div class="dg-content">
+      {% include headers/index.liquid %}
 
-        {{ content }}
+      {{ content }}
 
-        {% include footers/default.liquid %}
-      </div>
+      {% include footers/index.liquid %}
     </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <!-- Combined JS -->
     <script src="/assets/js/bundle.js"></script>
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-    </script>
 </html>
