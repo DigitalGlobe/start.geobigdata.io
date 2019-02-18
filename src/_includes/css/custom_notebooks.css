@@ -347,36 +347,6 @@
     text-decoration: none
 }
 
-.dg-footer-link-group a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0 16px;
-    border-right: 1px solid #fff;
-    font-weight: 300
-}
-
-.dg-footer-link-group a:visited {
-    color: #fff
-}
-
-.dg-footer-link-group a:last-child {
-    border-right: none
-}
-
-.dg-footer-link-group a:focus,.dg-footer-link-group a:hover {
-    color: #0085ec;
-    text-decoration: none;
-}
-
-.dg-footer-link-group a:visited:focus,.dg-footer-link-group a:visited:hover {
-    color: #0085ec;
-    text-decoration: none;
-}
-
-.dg-footer-link-group a:visited:active {
-    color: #00a6e6
-}
-
 .dg-footer-copyright {
     margin-top: 36px;
     font-size: 12.444px;

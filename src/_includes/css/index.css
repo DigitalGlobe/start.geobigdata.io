@@ -114,3 +114,17 @@ body {
 #section_signup {
     padding: 20px 0 36px;
 }
+
+.dg-footer-link-group a {
+  display: block;
+  border: none;
+}
+
+@media print, screen and (min-width: 40em) and (min-width: 40em) {
+  .dg-footer-link-group a {
+    display: inline-block;
+    border-right: 1px solid white;
+  }
+  .dg-footer-link-group a:last-child {
+    border-right: none; }
+}
