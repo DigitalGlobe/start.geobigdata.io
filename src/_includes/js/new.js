@@ -1,3 +1,6 @@
 jQuery(document).ready(function($) {
-    console.log('hi');
+  $("body").on("click", ".nav_main_menus_button", function(e){
+    e.preventDefault();
+    $( this ).toggleClass("active");
+  });
 });

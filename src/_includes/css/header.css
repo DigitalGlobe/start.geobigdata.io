@@ -33,6 +33,7 @@
 	top: 72px;
 	right: 102px;
 	background: #003359;
+	z-index: 100;
 }
 
 .dg_header .nav_main_menus.login {
@@ -65,7 +66,12 @@
 
 .dg_header .nav_main_menus_primary,
 .dg_header .nav_main_menus_secondary {
-	display: block;
+  display: none;
+}
+
+.dg_header .nav_main_menus_button.active ~ .nav_main_menus_primary,
+.dg_header .nav_main_menus_button.active ~ .nav_main_menus_secondary {
+  display: block;
 }
 
 .dg_header .nav_main_item {
