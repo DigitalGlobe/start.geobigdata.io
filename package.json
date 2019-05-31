@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@digitalglobe/dg-styles": "^1.0.3",
+    "@digitalglobe/dg-styles": "^1.1.13",
     "clean-css": "^4.2.1",
-    "uglify-js": "^3.4.9"
+    "uglify-js": "^3.6.0"
   }
 }
