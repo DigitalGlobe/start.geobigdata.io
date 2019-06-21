@@ -4,7 +4,10 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "npx eleventy --serve",
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +16,8 @@
     "@digitalglobe/dg-styles": "^1.1.13",
     "clean-css": "^4.2.1",
     "uglify-js": "^3.6.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
   }
 }
