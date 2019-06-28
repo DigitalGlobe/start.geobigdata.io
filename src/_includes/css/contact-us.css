@@ -148,7 +148,7 @@ form.mktoForm select[style] {
   }
 }
 
-form.mktoForm select {
+form.mktoForm select, form.mktoForm textarea {
   color: #838383;
   font-family: "PF DinText Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
